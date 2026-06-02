@@ -11,7 +11,7 @@ DashboardUiTest.kt // Functionality testing script
 
 <img width="420" height="936" alt="verifying_checkboxes" src="https://github.com/user-attachments/assets/740eeda0-f98c-4c94-80a3-aa97e939d2ce" />
 
-Demonstrates QA Automation techniques, including explicit waits, semantic testing, and list interaction.
+The project demonstrates QA Automation techniques, including waits to simulate network delay and device hitches, semantic testing and list interaction.
 
 Languages & Tech Stack used:
 - Kotlin (main app)
