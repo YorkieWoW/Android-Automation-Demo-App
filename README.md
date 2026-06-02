@@ -1,10 +1,12 @@
-# AutomationPracc
+# AutomationPracc - Demo Android App for Automation Testing
 Demo Android Automation Testing App using Kotlin and Java.
 The purpose of the app is to showcase some automation testing principles without having formal industry exposure to testing mobile apps. 
 
 <img width="420" height="934" alt="login_form" src="https://github.com/user-attachments/assets/99864495-2d9c-4e87-9522-285c47db7316" />
 
-Test scripts are located at:
+Test scripts are located in:
+
+androidTest/java/com/example/automationpracc
 
 LoginUiTest.kt // Simple login test script  
 DashboardUiTest.kt // Functionality testing script
