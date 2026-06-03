@@ -10,6 +10,7 @@ androidTest/java/com/example/automationpracc
 
 LoginUiTest.kt // Simple login test script  
 DashboardUiTest.kt // Functionality testing script
+ThemeTest.kt // Colour pallette test for device light & dark theme 
 
 <img width="420" height="936" alt="verifying_checkboxes" src="https://github.com/user-attachments/assets/740eeda0-f98c-4c94-80a3-aa97e939d2ce" />
 
@@ -21,3 +22,5 @@ Languages & Tech Stack used:
 - JUnit for Unit Testing
 - Espresso
 - Material3
+
+<img width="1003" height="538" alt="results" src="https://github.com/user-attachments/assets/31ed021d-5f86-446c-be46-f92bf2416d1b" />
