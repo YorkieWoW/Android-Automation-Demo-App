@@ -48,7 +48,7 @@ jobs:
       - name: Run UI Tests on Emulator
         uses: ReactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 21 #Lower API level is much faster to boot on Linux
+          api-level: 24 # Bug fix, now matches the minimum required Sdk version
           target: default
           arch: x86
           profile: Nexus 6
