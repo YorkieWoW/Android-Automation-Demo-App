@@ -36,7 +36,7 @@ jobs:
 
   # 2. Run UI Tests (Requires Emulator, runs on macOS for hardware acceleration)
   ui_tests:
-    runs-on: macos-latest
+    runs-on: macos-13
     needs: unit_tests # Only run UI tests if unit tests pass
     steps:
       - name: Checkout Code
@@ -52,9 +52,13 @@ jobs:
       - name: Run UI Tests on Emulator
         uses: ReactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 30
-          target: google_apis
+          api-level: 29
+          target: default
           arch: x86_64
+          profile: Nexus 6
+          disable-animations: true
+          force-avd-creation: false
+          emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: ./gradlew connectedDebugAndroidTest
 
       - name: Upload UI Test Report
